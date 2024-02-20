@@ -1,7 +1,7 @@
 from functions.math_functions import add_numbers, multiply_numbers, factorial
 
 def test_add_numbers():
-    assert add_numbers(2, 3) == 4
+    assert add_numbers(2, 3) == 5
     assert add_numbers(-2, 3) == 1
     assert add_numbers(0, 0) == 0
 
